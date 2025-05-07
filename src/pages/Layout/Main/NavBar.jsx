@@ -7,7 +7,7 @@ const NavBar = () => {
   const { handleLogOut, isLoggedIn, userLoged } = useContext(UserContext);
   return (
     <div>
-      <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark fixed-top">
         <Container>
           <Navbar.Brand as={Link} to="/">Fake Store</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
