@@ -1,0 +1,37 @@
+.product-list-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  .table th {
+    background-color: #6a11cb;
+    color: white;
+    text-align: center;
+  }
+  
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  button {
+    font-size: 0.9rem;
+  }
+  .action-buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espaciado entre los botones */
+}
