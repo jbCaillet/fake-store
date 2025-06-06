@@ -1,6 +1,6 @@
 /* Estilo global */
 body {
-  background-color: #f6f5c5; /* Amarillo elegante */
+  background-color: #faf9da; /* Amarillo elegante */
   color: #333; /* Texto oscuro para contraste */
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -24,7 +24,7 @@ a {
 }
 /* Navbar */
 .navbar {
-  background-color: #4a90e2; /* Azul delicado */
+  background-color: #024ca0; /* Azul delicado */
   color: #fff;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -92,7 +92,7 @@ a {
 
 /* Contenedor principal de la página */
 .home-page {
-  background-color: #f6f5c5;
+  background-color: #faf9da;
   padding: 20px;
   min-height: 100vh;
 }
@@ -113,7 +113,7 @@ a {
 
 /* Footer */
 footer {
-  background-color: #4a90e2; /* Azul delicado */
+  background-color: #024ca0; /* Azul delicado */
   color: #fff;
   text-align: center;
   padding: 15px 0;
@@ -133,43 +133,3 @@ footer a:hover {
 }
 
 
-
-.animate-button {
-  background-color: #fff;
-  color: #4a90e2;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s;
-}
-
-.animate-button:hover {
-  background-color: #2575fc;
-  color: #fff;
-}
-
-/* Imagen animada */
-.animated-image {
-  position: fixed;
-  top: 50%;
-  left: -200px; /* Comienza fuera de la pantalla */
-  width: 150px;
-  height: auto;
-  animation: slide-across 3s ease-in-out forwards; /* Animación de 3 segundos */
-}
-
-/* Definición de la animación */
-@keyframes slide-across {
-  0% {
-      left: -200px; /* Fuera de la pantalla a la izquierda */
-  }
-  50% {
-      left: 50%; /* Centro de la pantalla */
-      transform: translateX(-50%);
-  }
-  100% {
-      left: 100%; /* Fuera de la pantalla a la derecha */
-  }
-}
